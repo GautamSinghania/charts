@@ -164,6 +164,7 @@ As an alternative, you can use any of the preset configurations for pod affinity
 | ----------------------------- | -------------------------------------------------------------------------------------------------------------------------- | --------------------------- |
 | `image.registry`              | ZooKeeper image registry                                                                                                   | `REGISTRY_NAME`             |
 | `image.repository`            | ZooKeeper image repository                                                                                                 | `REPOSITORY_NAME/zookeeper` |
+| `image.tag`                   | ZooKeeper image tag                                                                                                        | `3.9.2-debian-12-r2`        |
 | `image.digest`                | ZooKeeper image digest in the way sha256:aa.... Please note this parameter, if set, will override the tag                  | `""`                        |
 | `image.pullPolicy`            | ZooKeeper image pull policy                                                                                                | `IfNotPresent`              |
 | `image.pullSecrets`           | Specify docker-registry secret names as an array                                                                           | `[]`                        |
